@@ -8,12 +8,30 @@
 * Create a Dark and Light Toggle Button
 
 ## **Tech Stack used**
-HTML, CSS, Javascript
+HTML, CSS, Javascript, [Poke API](https://pokeapi.co/)
 
 ## Learning Goals
 
 * Learning how to use Pokemon API.
-* How to Toggle between Dark and Light mode.
+* Create a Dark and Light Mode Toggle
 * Leveling up my HTML and CSS skills.
 
+## Project Folder Structure:
+There are three files in the Pokemon Card generator folder, the first is the HTML document called **index.html**. The next is the stylesheet named **style.css**, and the last is the script file called **main.js**.
+
+
+## Setup Guide
+**Step 1:** Fork the repository. Click the Code button in GitHub, make sure SSH is selected, and copy the provided git URL info
+
+**Step 2:** Clone your forked repository. Clone the repo to your local machine with git clone followed by the git URL you copied.
+
+```
+git clone https://github.com/yourusername/Pokemon-Card-Generator.git
+```
+
+**Step 3:** After cloning the repository. Go to the repository. 
+
+```
+cd Pokemon-Card- Generator
+```
 
