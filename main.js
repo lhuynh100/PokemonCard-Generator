@@ -22,6 +22,8 @@ const typeColor = {
 const url="https://pokeapi.co/api/v2/pokemon/";
 const card =document.getElementById("card");
 const btn = document.getElementById("btn");
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
 
 let getPokeData = () => {
   // Generate a random number between 1 and 150
