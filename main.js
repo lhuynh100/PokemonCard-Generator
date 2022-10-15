@@ -1,4 +1,22 @@
+const typeColor = {
+  bug: "#26de81",
+  dragon: "#ffeaa7",
+  electric: "#fed330",
+  fairy: "#FF0069",
+  fighting: "#30336b",
+  fire: "#f0932b",
+  flying: "#81ecec",
+  grass: "#00b894",
+  ground: "#EFB549",
+  ghost: "#a55eea",
+  ice: "#74b9ff",
+  normal: "#95afc0",
+  poison: "#6c5ce7",
+  psychic: "#a29bfe",
+  rock: "#2d3436",
+  water: "#0190FF",
 
+}
 
 // fetch API
 const url="https://pokeapi.co/api/v2/pokemon/";
@@ -89,16 +107,16 @@ let appendTypes = (types) => {
   window.addEventListener("load", getPokeData);
 
   // toggle button for dark and light with background
-toggle.addEventListener('click', function(){
-  this.classList.toggle('bi-moon');
-  if(this.classList.toggle('bi-brightness-high-fill')){
-      body.style.background = '#E7E7E6';
-      body.style.color = 'black';
-      body.style.transition = '2s';
-    
-  }else{
-      body.style.background = '#152028';
-      body.style.color = '#ffffff';
-      body.style.transition = '2s';
-  }
-});
+  toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        body.style.background = '#E7E7E6';
+        body.style.color = 'black';
+        body.style.transition = '2s';
+      
+    }else{
+        body.style.background = '#152028';
+        body.style.color = '#ffffff';
+        body.style.transition = '2s';
+    }
+  });
