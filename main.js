@@ -87,3 +87,18 @@ let appendTypes = (types) => {
 
   btn.addEventListener("click", getPokeData);
   window.addEventListener("load", getPokeData);
+
+  // toggle button for dark and light with background
+toggle.addEventListener('click', function(){
+  this.classList.toggle('bi-moon');
+  if(this.classList.toggle('bi-brightness-high-fill')){
+      body.style.background = '#E7E7E6';
+      body.style.color = 'black';
+      body.style.transition = '2s';
+    
+  }else{
+      body.style.background = '#152028';
+      body.style.color = '#ffffff';
+      body.style.transition = '2s';
+  }
+});
