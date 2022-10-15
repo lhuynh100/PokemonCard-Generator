@@ -75,3 +75,12 @@ let appendTypes = (types) => {
     document.querySelector(".types").appendChild(span)
   });
 };
+
+ // Set themeColor based on pokemon type
+ let styleCard = color => {
+  card.style.background = `radial-gradient(circle at 50% 0%, ${color} 36%, #ffffff 36%)`;
+  card.querySelectorAll(".types span")
+  .forEach((typeColor) => {typeColor
+  .style.backgroundColor = color;
+    });
+  };
