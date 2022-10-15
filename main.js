@@ -84,3 +84,6 @@ let appendTypes = (types) => {
   .style.backgroundColor = color;
     });
   };
+
+  btn.addEventListener("click", getPokeData);
+  window.addEventListener("load", getPokeData);
