@@ -63,8 +63,15 @@ let generateCard = (data) => {
 </div>
 `;
 
-
   // Append Pokemon Type to the card
   appendTypes(data.types);
   styleCard(themeColor);
+};
+
+let appendTypes = (types) => {
+  types.forEach(item => {
+    let span = document.createElement("SPAN");
+    span.textContent = item.type.name;
+    document.querySelector(".types").appendChild(span)
+  });
 };
