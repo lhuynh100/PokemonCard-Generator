@@ -26,7 +26,7 @@ There are three files in the Pokemon Card generator folder, the first is the HTM
 **Step 2:** Clone your forked repository. Clone the repo to your local machine with git clone followed by the git URL you copied.
 
 ```
-git clone https://github.com/yourusername/Pokemon-Card-Generator.git
+git clone git@github.com:lhuynh100/PokemonCard-Generator.git
 ```
 
 **Step 3:** After cloning the repository. Go to the repository. 
@@ -35,3 +35,10 @@ git clone https://github.com/yourusername/Pokemon-Card-Generator.git
 cd Pokemon-Card- Generator
 ```
 
+**Step 4:** Open index.html file.
+A random Pokemon card will be displayed when you press the Generate button, and a new pokemon card will generate. There will be a toggle button on dark and light modes.
+
+## Screenshots
+![Screenshot1](images/1.JPG)
+![Screenshot2](images/2.JPG)
+![Screenshot1](images/3.JPG)
