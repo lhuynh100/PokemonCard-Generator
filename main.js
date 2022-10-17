@@ -1,3 +1,5 @@
+
+// Type of element colors that will apply to the correct type of pokemon
 const typeColor = {
   bug: "#26de81",
   dragon: "#ffeaa7",
