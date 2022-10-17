@@ -108,10 +108,11 @@ let appendTypes = (types) => {
     });
   };
 
+  // Toggle button function for dark and light with background
   btn.addEventListener("click", getPokeData);
   window.addEventListener("load", getPokeData);
 
-  // toggle button for dark and light with background
+
   toggle.addEventListener('click', function(){
     this.classList.toggle('bi-moon');
     if(this.classList.toggle('bi-brightness-high-fill')){
