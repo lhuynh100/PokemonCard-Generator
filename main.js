@@ -46,6 +46,7 @@ let generateCard = (data) => {
   // Grab necessary data and assign it to variables
 
   console.log(data);
+  // these access these datas through poke API 
   const hp = data.stats[0].base_stat;
   const imgSrc = data.sprites.other.dream_world.front_default;
   const pokeName = data.name[0].toUpperCase() + data.name.slice(1);
